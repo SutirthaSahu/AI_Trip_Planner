@@ -1,11 +1,3 @@
-def main():
-    print("Hello from ai-trip-planner!")
-
-
-if __name__ == "__main__":
-    main()
-
-
 from fastapi import FastAPI
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel
